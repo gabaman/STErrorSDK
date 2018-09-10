@@ -1,0 +1,11 @@
+framework module STErrorSDK {
+  umbrella header "STErrorSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module STErrorSDK.Swift {
+    header "STErrorSDK-Swift.h"
+    requires objc
+}
